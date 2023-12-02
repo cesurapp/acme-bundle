@@ -43,7 +43,7 @@ class Kernel extends BaseKernel
                 'auto_mapping' => true,
             ],
         ]);*/
-        
+
         // Acme Bundle Default Configuration
         /* $container->extension('acme', []); */
     }
