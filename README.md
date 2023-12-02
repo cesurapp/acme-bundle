@@ -1,5 +1,8 @@
 # Symfony Acme Bundle
 
+[![App Tester](https://github.com/cesurapp/acme-bundle/actions/workflows/testing.yaml/badge.svg)](https://github.com/cesurapp/acme-bundle/actions/workflows/testing.yaml)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?logo=Unlicense)](LICENSE.md)
+
 Template to create new symfony bundle.
 
 Usage:
