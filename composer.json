@@ -13,9 +13,9 @@
     ],
     "require": {
         "php": ">=8.2",
-        "symfony/dependency-injection": "*",
-        "symfony/http-kernel": "*",
-        "symfony/framework-bundle": "*"
+        "symfony/dependency-injection": "^7.0",
+        "symfony/http-kernel": "^7.0",
+        "symfony/framework-bundle": "^7.0"
     },
     "require-dev": {
         "php-cs-fixer/shim": "^3.40",
@@ -43,10 +43,5 @@
             "@qa:phpstan",
             "@test"
         ]
-    },
-    "extra": {
-        "symfony": {
-            "require": "7.0.*"
-        }
     }
 }
