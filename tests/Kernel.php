@@ -32,7 +32,7 @@ class Kernel extends BaseKernel
         ]);
 
         // Doctrine Bundle Default Configuration
-        $container->extension('doctrine', [
+        /*$container->extension('doctrine', [
             'dbal' => [
                 'default_connection' => 'default',
                 'url' => 'sqlite:///%kernel.project_dir%/var/database.sqlite',
@@ -53,7 +53,7 @@ class Kernel extends BaseKernel
                     ],
                 ],
             ],
-        ]);
+        ]);*/
 
         // Acme Bundle Default Configuration
         /* $container->extension('acme', []); */
