@@ -7,6 +7,13 @@ use Symfony\Component\HttpKernel\KernelInterface;
 
 class AcmeTest extends KernelTestCase
 {
+    protected function tearDown(): void
+    {
+        parent::tearDown();
+
+        restore_exception_handler();
+    }
+
     public function testAcme(): void
     {
         self::bootKernel();
