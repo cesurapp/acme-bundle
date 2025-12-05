@@ -12,15 +12,15 @@
         }
     ],
     "require": {
-        "php": ">=8.3",
-        "symfony/dependency-injection": "^7.0",
-        "symfony/http-kernel": "^7.0",
-        "symfony/framework-bundle": "^7.0"
+        "php": ">=8.4",
+        "symfony/dependency-injection": "^8.0",
+        "symfony/http-kernel": "^8.0",
+        "symfony/framework-bundle": "^8.0"
     },
     "require-dev": {
         "php-cs-fixer/shim": "^3.40",
-        "symfony/test-pack": "^1.1",
-        "phpstan/phpstan": "^1.10"
+        "symfony/test-pack": "^v1.2.0",
+        "phpstan/phpstan": "^2.1.33"
     },
     "autoload": {
         "psr-4": {
